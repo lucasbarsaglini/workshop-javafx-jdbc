@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 	
-	private static Scene mainScene; //referencia para cena principal
+	private static Scene mainScene; 
 	
 	@Override
 	public void start(Stage primaryStage) {
@@ -29,7 +29,7 @@ public class Main extends Application {
 		}
 	}
 	
-	public static Scene getMainScene() { // função para pegar a referencia
+	public static Scene getMainScene() { 
 		return mainScene;
 	}
 	
